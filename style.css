@@ -1,0 +1,26 @@
+@font-face {
+    font-family: cursedTimer;
+    src: url(/fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body { 
+    margin: 0;
+    color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 575px;
+    max-height: 385px;
+    margin: 25px auto 25px auto;
+    border: solid #9AABD8 3px;
+    border-radius: 10px;
+
+}
+
+.timer {
+    border: solid 1px black;
+    text-align: center;
+}
