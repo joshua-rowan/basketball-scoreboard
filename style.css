@@ -1,9 +1,19 @@
-
+@font-face {
+    font-family: "Digital-7";
+    src: url('fonts/digital-7.ttf');
+}
 
 body { 
     margin: 0;
     color: #E5E5E5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    width: 149px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px;
 }
 /* When I change container do the background color with a transition color */
 .container {
@@ -15,15 +25,22 @@ body {
     margin: 25px auto 25px auto;
     border: solid #9AABD8 3px;
     border-radius: 10px;
-
-}
-
-.team {
+    padding: 50px 15px 50px 15px;
 
 }
 
 .timer {
-    border: solid 1px black;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    margin: 15px 0px 15px 0px;
+    font-family: "Digital-7", Tahoma;
+    color: #F94F6D;
+    border-radius: 8px;
+
 }
 
