@@ -1,13 +1,11 @@
-@font-face {
-    font-family: cursedTimer;
-    src: url(/fonts/CursedTimerUlil-Aznm.ttf);
-}
+
 
 body { 
     margin: 0;
     color: #E5E5E5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* When I change container do the background color with a transition color */
 .container {
     display: flex;
     justify-content: space-around;
@@ -20,7 +18,12 @@ body {
 
 }
 
+.team {
+
+}
+
 .timer {
     border: solid 1px black;
     text-align: center;
 }
+
