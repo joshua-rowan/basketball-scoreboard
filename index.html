@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Basketball Scoreboard</title>
 </head>
+
 <body>
     <div class="container">
         <div>
             <h3>
-                <div class="team">
+                <div>
                     HOME
                 </div>
-                
-                <div>
-                    <p class="timer" id="home-el">0</p>
-                    <button class="btn" id="1ptHome" onclick="increment1()">+1</button>
-                    <button class="btn" id="2ptHome" onclick="increment2()">+2</button>
-                    <button class="btn" id="3ptHome" onclick="increment3()">+3</button>
-                </div>
             </h3>
+            <div>
+                <p class="timer" id="home-el">0</p>
+                <button class="btn" id="1ptHome" onclick="increment1()">+1</button>
+                <button class="btn" id="2ptHome" onclick="increment2()">+2</button>
+                <button class="btn" id="3ptHome" onclick="increment3()">+3</button>
+            </div>
+
         </div>
         <div>
             <h3>
                 <div>
                     GUEST
                 </div>
-                <div>
-                    <p class="timer" id="away-el">0</p>
-                    <button class="btn" id="1ptAway" onclick="increment1()">+1</button>
-                    <button class="btn" id="2ptAway" onclick="increment2()">+2</button>
-                    <button class="btn" id="3ptAway" onclick="increment3()">+3</button>
-                </div>
             </h3>
+            <div>
+                <p class="timer" id="away-el">0</p>
+                <button class="btn" id="1ptAway" onclick="increment1()">+1</button>
+                <button class="btn" id="2ptAway" onclick="increment2()">+2</button>
+                <button class="btn" id="3ptAway" onclick="increment3()">+3</button>
+            </div>
+
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
