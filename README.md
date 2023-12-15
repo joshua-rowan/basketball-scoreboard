@@ -19,6 +19,7 @@ https://delightful-youtiao-c8999e.netlify.app
 ## Screenshot
 ![basketballScoreboard](https://github.com/joshua-rowan/basketball-scoreboard/assets/127271690/4500a0c3-b4f1-4725-b821-5874c5ea4990)
 
+![basketballScoreboard2](https://github.com/joshua-rowan/basketball-scoreboard/assets/127271690/7bcac2cb-c39a-4b02-8a88-0ecc2d013ddb)
 
 ## Usage
 
