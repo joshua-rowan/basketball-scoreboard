@@ -45,3 +45,19 @@ h3 {
 
 }
 
+.btn {
+    border: solid #9AABD8 2px;
+    background: none;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: "Digital-7", Tahoma;
+    font-size: 22px;
+}
+
+.points-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
