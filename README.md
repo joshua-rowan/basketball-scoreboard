@@ -17,6 +17,7 @@ A basketball scoreboard. I use this application to practice and demonstrate newl
 https://delightful-youtiao-c8999e.netlify.app 
 
 ## Screenshot
+![basketballScoreboard](https://github.com/joshua-rowan/basketball-scoreboard/assets/127271690/4500a0c3-b4f1-4725-b821-5874c5ea4990)
 
 
 ## Usage
