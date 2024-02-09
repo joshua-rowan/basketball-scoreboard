@@ -1,35 +1,41 @@
-let homeEl = document.getElementById("home-el")
-let awayEl = document.getElementById("away-el")
+const homeEl = document.getElementById("home-el")
+const awayEl = document.getElementById("away-el")
+const homeBtn1Pt = document.getElementById("1ptHome")
+const homeBtn2Pt = document.getElementById("2ptHome")
+const homeBtn3Pt = document.getElementById("3ptHome")
+const awayBtn1Pt = document.getElementById("1ptAway")
+const awayBtn2Pt = document.getElementById("2ptAway")
+const awayBtn3Pt = document.getElementById("3ptAway")
 
 let homeScore = 0;
 let awayScore = 0;
 
-function increment1Home() {
+homeBtn1Pt.addEventListener("click", function increment1Home() {
     homeScore += 1
     homeEl.textContent = homeScore
-}
+})
 
-function increment2Home() {
+homeBtn2Pt.addEventListener("click", function increment2Home() {
     homeScore += 2
     homeEl.textContent = homeScore
-}
+})
 
-function increment3Home() {
+homeBtn3Pt.addEventListener("click", function increment3Home() {
     homeScore += 3
     homeEl.textContent = homeScore
-}
+})
 
-function increment1Away() {
+awayBtn1Pt.addEventListener("click", function increment1Away() {
     awayScore += 1
     awayEl.textContent = awayScore
-}
+})
 
-function increment2Away() {
+awayBtn2Pt.addEventListener("click", function increment2Away() {
     awayScore += 2
     awayEl.textContent = awayScore
-}
+})
 
-function increment3Away() {
+awayBtn3Pt.addEventListener("click", function increment3Away() {
     awayScore += 3
     awayEl.textContent = awayScore
-}
+})
